@@ -272,16 +272,16 @@ wheels = [
 
 [[package]]
 name = "duckduckgo-search"
-version = "7.1.0"
+version = "7.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "lxml" },
     { name = "primp" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/50/9a/1f0a49fafd5d203f3a9e73a46991b9034851b6a644fe14b50e5c8f06f765/duckduckgo_search-7.1.0.tar.gz", hash = "sha256:2276d60e3a57171058eaa7f0a57f09876f77e14a32dbdc97acc707aad134bbc3", size = 24810 }
+sdist = { url = "https://files.pythonhosted.org/packages/67/58/2d5ca3c1d831610fef1a058ef9d1877c577b4eb1607e62bc77dd908c858d/duckduckgo_search-7.1.1.tar.gz", hash = "sha256:1874e55aa6eac3de2d0e9b556b70f35ed0cd7a4544d7417cf38216275b3de009", size = 24354 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/25/c3f678f065dffebf1c11a388b229164ccfcdaf4113f3de7695be3eafda2f/duckduckgo_search-7.1.0-py3-none-any.whl", hash = "sha256:2e51901992048108ea5c24d8e2c0373078d5088b802fba23eb124ee4d812c38f", size = 20471 },
+    { url = "https://files.pythonhosted.org/packages/66/49/66d751613c8bb3d01dc7dc53aa1251cddd466dcc75babce85797bbd5e90c/duckduckgo_search-7.1.1-py3-none-any.whl", hash = "sha256:753b2237fd8a9a4cbf06c788aaf0cfc7e00f4623e8f854d0525682ff31770093", size = 20121 },
 ]
 
 [[package]]
@@ -525,7 +525,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
-    { name = "duckduckgo-search", specifier = ">=7.0.2" },
+    { name = "duckduckgo-search", specifier = ">=7.1.0" },
     { name = "langchain", specifier = ">=0.3.13" },
     { name = "langchain-community", specifier = ">=0.3.13" },
     { name = "langchain-openai", specifier = ">=0.2.14" },
