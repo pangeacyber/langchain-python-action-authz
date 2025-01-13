@@ -524,7 +524,7 @@ requires-dist = [
     { name = "duckduckgo-search", specifier = ">=7.2.1" },
     { name = "langchain", specifier = ">=0.3.14" },
     { name = "langchain-community", specifier = ">=0.3.14" },
-    { name = "langchain-openai", specifier = ">=0.2.14" },
+    { name = "langchain-openai", specifier = ">=0.3.0" },
     { name = "pangea-sdk", specifier = ">=5.2.1" },
     { name = "pydantic", specifier = ">=2.10.5" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
