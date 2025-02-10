@@ -523,7 +523,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
-    { name = "duckduckgo-search", specifier = ">=7.3.1" },
+    { name = "duckduckgo-search", specifier = ">=7.3.2" },
     { name = "langchain", specifier = ">=0.3.17" },
     { name = "langchain-community", specifier = ">=0.3.16" },
     { name = "langchain-openai", specifier = ">=0.3.4" },
