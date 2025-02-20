@@ -11,7 +11,7 @@ dependencies = [
     "langchain-community>=0.3.17",
     "langchain-openai>=0.3.6",
     "langchain>=0.3.18",
-    "pangea-sdk>=5.5.0",
+    "pangea-sdk>=5.5.1",
     "pydantic>=2.10.6",
     "python-dotenv>=1.0.1",
 ]
