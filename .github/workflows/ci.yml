@@ -84,7 +84,7 @@ jobs:
           python-version-file: .python-version
 
       - name: Print help text
-        uses: nick-fields/retry@v3.0.1
+        uses: nick-fields/retry@v3.0.2
         with:
           timeout_seconds: 30
           max_attempts: 10
