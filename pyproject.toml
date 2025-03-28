@@ -13,7 +13,7 @@ dependencies = [
     "langchain>=0.3.21",
     "pangea-sdk>=5.5.1",
     "pydantic>=2.10.6",
-    "python-dotenv>=1.0.1",
+    "python-dotenv>=1.1.0",
 ]
 
 [tool.uv]
