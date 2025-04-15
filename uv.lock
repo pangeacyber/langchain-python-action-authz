@@ -271,22 +271,16 @@ wheels = [
 
 [[package]]
 name = "duckduckgo-search"
-version = "2025.4.4"
+version = "7.5.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "lxml" },
     { name = "primp" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/13/dc/919d3d51ed702890a3e6e736e1e152d5d90856393200306e82fb54fde39e/duckduckgo_search-7.5.5.tar.gz", hash = "sha256:44ef03bfa5484bada786590f2d4c213251131765721383a177a0da6fa5c5e41a", size = 24768 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/77/15/bea5add03f5028dba529ddd9090ec6bd545e90926bdaa5a80b122e265110/duckduckgo_search-2025.4.4-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:18f21c972613f96fba344e2186757e862b724d9e574c956193ebc4f7fdfdf0fa", size = 78319 },
-    { url = "https://files.pythonhosted.org/packages/4a/ee/6ce5a5db585af44e4a811d0fd61431fe13789e51ade1102e78dd4f610a55/duckduckgo_search-2025.4.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:8c6944fb74b77aaab5759c8806c23ed20aa96624d1c49a2caf2b9f3b50c07057", size = 75032 },
-    { url = "https://files.pythonhosted.org/packages/e2/2f/a899d28de2d46541b24d33b969fedda74f6b00a4317e16cf207cbb896292/duckduckgo_search-2025.4.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2e52028aeaa6151514a3115cc6fe616883cf9614fba2966792a415b7d97935b6", size = 95875 },
-    { url = "https://files.pythonhosted.org/packages/58/f3/cf71d8a286325f8a2d969bc0bda9e4defb01f1df2142887c965fa03adebb/duckduckgo_search-2025.4.4-cp312-cp312-win_amd64.whl", hash = "sha256:f8a826f0d19eccba76d83d5034be8ae2e89f38263befd290c6ca613c8eed7ea2", size = 60488 },
-    { url = "https://files.pythonhosted.org/packages/85/d6/8d8775727dc18a38b5bbd5982383ff4d2a1b392afba4a998cac54e5c78f8/duckduckgo_search-2025.4.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:a34c01f397f843ea9e4d00520eadfee087f837c3be9d7c2817c6006ec634c057", size = 78209 },
-    { url = "https://files.pythonhosted.org/packages/97/72/e1d4db7ef67fe35fe996ad492b253cdfba79652d5ef03c1e0159b6d1a05e/duckduckgo_search-2025.4.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:7fc5625842c14b0f80b955f448757976295f4242ade632b6982b5ae002fe3d81", size = 74936 },
-    { url = "https://files.pythonhosted.org/packages/0b/7c/dc478eea16f30270183a2d5a964352404c00b3fcc5df8ce64a1220a5a556/duckduckgo_search-2025.4.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5434abee02b3d0c9759210a7d358aaa51214c1529ab1e6ddf374d94afa2a0e5e", size = 95537 },
-    { url = "https://files.pythonhosted.org/packages/75/eb/a16b1e6516c0156c04499367eb7b7bcaec1b69e91a25d449df2ee97f1377/duckduckgo_search-2025.4.4-cp313-cp313-win_amd64.whl", hash = "sha256:a2cf0c92deb868eeb0694d864aa922e054e3a87da81009757af6af56d700f681", size = 60237 },
+    { url = "https://files.pythonhosted.org/packages/fc/da/8376678b4a9ae0f9418d93df9c9cf851dced49c95ceb38daac6651e38f7a/duckduckgo_search-7.5.5-py3-none-any.whl", hash = "sha256:c71a0661aa436f215d9a05d653af424affb58825ab3e79f3b788053cbdee9ebc", size = 20421 },
 ]
 
 [[package]]
@@ -534,12 +528,12 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
-    { name = "duckduckgo-search", specifier = ">=2025.4.4" },
+    { name = "duckduckgo-search", specifier = "==7.5.5" },
     { name = "langchain", specifier = ">=0.3.23" },
     { name = "langchain-community", specifier = ">=0.3.21" },
     { name = "langchain-openai", specifier = ">=0.3.12" },
     { name = "pangea-sdk", specifier = ">=5.5.1" },
-    { name = "pydantic", specifier = ">=2.11.2" },
+    { name = "pydantic", specifier = "==2.11.3" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 
@@ -982,7 +976,7 @@ wheels = [
 
 [[package]]
 name = "pydantic"
-version = "2.11.2"
+version = "2.11.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "annotated-types" },
@@ -990,9 +984,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "typing-inspection" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b0/41/832125a41fe098b58d1fdd04ae819b4dc6b34d6b09ed78304fd93d4bc051/pydantic-2.11.2.tar.gz", hash = "sha256:2138628e050bd7a1e70b91d4bf4a91167f4ad76fdb83209b107c8d84b854917e", size = 784742 }
+sdist = { url = "https://files.pythonhosted.org/packages/10/2e/ca897f093ee6c5f3b0bee123ee4465c50e75431c3d5b6a3b44a47134e891/pydantic-2.11.3.tar.gz", hash = "sha256:7471657138c16adad9322fe3070c0116dd6c3ad8d649300e3cbdfe91f4db4ec3", size = 785513 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bf/c2/0f3baea344d0b15e35cb3e04ad5b953fa05106b76efbf4c782a3f47f22f5/pydantic-2.11.2-py3-none-any.whl", hash = "sha256:7f17d25846bcdf89b670a86cdfe7b29a9f1c9ca23dee154221c9aa81845cfca7", size = 443295 },
+    { url = "https://files.pythonhosted.org/packages/b0/1d/407b29780a289868ed696d1616f4aad49d6388e5a77f567dcd2629dcd7b8/pydantic-2.11.3-py3-none-any.whl", hash = "sha256:a082753436a07f9ba1289c6ffa01cd93db3548776088aa917cc43b63f68fa60f", size = 443591 },
 ]
 
 [[package]]
