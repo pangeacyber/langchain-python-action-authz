@@ -558,7 +558,7 @@ dev = [
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
     { name = "duckduckgo-search", specifier = "==8.0.1" },
-    { name = "langchain", specifier = ">=0.3.24" },
+    { name = "langchain", specifier = ">=0.3.25" },
     { name = "langchain-community", specifier = ">=0.3.23" },
     { name = "langchain-openai", specifier = ">=0.3.16" },
     { name = "pangea-sdk", specifier = ">=6.1.0" },
