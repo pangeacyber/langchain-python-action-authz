@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 
 dependencies = [
     "click>=8.2.1",
-    "duckduckgo-search==8.0.2",
+    "duckduckgo-search==8.0.3",
     "langchain-community>=0.3.24",
     "langchain-openai>=0.3.21",
     "langchain>=0.3.25",
