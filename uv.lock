@@ -604,7 +604,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.3.0" },
     { name = "duckduckgo-search", specifier = "==8.1.1" },
     { name = "langchain", specifier = ">=0.3.27" },
-    { name = "langchain-community", specifier = ">=0.3.29" },
+    { name = "langchain-community", specifier = ">=0.3.30" },
     { name = "langchain-openai", specifier = ">=0.3.33" },
     { name = "pangea-sdk", specifier = ">=6.7.0" },
     { name = "pydantic", specifier = "==2.11.9" },
